@@ -1,0 +1,28 @@
+.nav {
+    background-color: aliceblue;
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 20px 30px -5px rgba(50, 50, 93, 0.25);
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.nav .home {
+    border-bottom: 1px solid #D4D4D4;
+    padding-bottom: 5px;
+}
+
+.nav .about {
+    padding-top: 5px;
+}
+
+a {
+    text-decoration: none;
+    color:#34B99A;
+    margin-bottom: 5px;
+}
