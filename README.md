@@ -15,4 +15,9 @@ React JS를 사용한 영화 앱 🏆🎬
 </br></br>
 ![movie_app_home](https://user-images.githubusercontent.com/71072930/106386461-6582dd80-6418-11eb-9486-4823ecf44cbd.png)
 </br></br>
+
+## Go to Url
+</br>
+
+현재는 반응형 웹 사이트가 아닙니다. 
 ### https://hyejooLim.github.io/movie_app/
