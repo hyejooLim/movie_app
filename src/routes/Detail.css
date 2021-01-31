@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+#root {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.movie__detail {
+  width: 80%;
+  font-size: 20px;
+  display: flex;
+  font-family: 'Noto Sans', 'Courier New', Courier, monospace;
+}
+
+.movie__detail img {
+  width: 500px;
+  height: 550px;
+  margin-right: 70px;
+  box-shadow: 10px 8px 10px 10px rgba(0, 0, 0, 0.24);
+}
+
+.movie__detail .movie__detail__data {
+  margin: 50px;
+  margin-top: 40px;
+}
+
+.movie__detail .movie__detail__data .movie__title {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.movie__detail .movie__detail__data .movie__year {
+  font-size: 18px;
+}
+
+.movie__detail .movie__detail__data .movie__genres {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.movie__detail .movie__detail__data .movie__genres .movie__genre {
+  margin-right: 10px;
+}
+
+.movie__detail .movie__detail__data .movie__summary {
+  margin-top: 60px;
+  font-size: 18px;
+  color: #2c2c2c;
+}
+
+.movie__detail h2,
+.movie__detail h4 {
+  margin: 0;
+}
