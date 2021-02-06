@@ -17,7 +17,7 @@ React JS를 사용한 반응형 영화 앱 🏆🎬
 ### Desktop 🖥
 
 데스크톱 환경에서 볼 수 있는 스크린 샷입니다.
-</br>
+</br></br>
 
 <img src="https://user-images.githubusercontent.com/71072930/106386461-6582dd80-6418-11eb-9486-4823ecf44cbd.png" width="800" height="520">
 </br></br>
@@ -25,11 +25,10 @@ React JS를 사용한 반응형 영화 앱 🏆🎬
 ### Mobile 📱
 
 모바일 환경에서 볼 수 있는 스크린 샷입니다.
-</br>
+</br></br>
 
-<img src="https://user-images.githubusercontent.com/71072930/107116659-1d503900-68b8-11eb-873e-ee9f297a7e6d.jpg" width="400" height="530">
+<img src="https://user-images.githubusercontent.com/71072930/107116659-1d503900-68b8-11eb-873e-ee9f297a7e6d.jpg" width="400" height="510">
 
 ## 4. Go to Url
-</br>
 
 ### https://hyejooLim.github.io/movie_app/
