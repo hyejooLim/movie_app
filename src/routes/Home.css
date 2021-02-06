@@ -36,3 +36,15 @@ body,
   font-weight: 300;
   font-size: 22px;
 }
+
+/* mobile */
+@media screen and (max-width: 480px) {
+  .container {
+    padding-top: 60px;
+    margin-left: 80px;
+  }
+
+  .container .loader {
+    font-size: 18px;
+  }
+}

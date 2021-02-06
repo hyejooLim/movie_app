@@ -44,4 +44,4 @@ Moive.propTypes = {
   genres: PropTypes.arrayOf(PropTypes.string).isRequired
 };
 
-export default Moive;
+export default Moive; 

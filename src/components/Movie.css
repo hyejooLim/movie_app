@@ -67,3 +67,29 @@
 .movies .movie .movie__data .movie__summary {
   font-size: 14px;
 }
+
+/* mobile */
+@media screen and (max-width: 480px) {
+  .movies {
+    display: block;
+    width: 80%;
+  }
+
+  .movies a {
+    width: 40%;
+  }
+
+  .movies .movie {
+    padding: 15px;
+    margin-right: 0;
+    padding-right: 70px;
+  }
+
+  .movies .movie img {
+    max-width: 100px;
+  }
+
+  .movies .movie .movie__data .movie__title {
+    font-size: 18px;
+  }
+}

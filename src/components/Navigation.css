@@ -26,3 +26,27 @@ a {
     color:#34B99A;
     margin-bottom: 5px;
 }
+
+@media screen and (max-width: 480px) {
+    .nav {
+        flex-direction: row;
+        align-items: center;
+        height: 55px;
+    }
+
+    .nav .home {
+        border-bottom: none;
+        border-right: 1px solid #D4D4D4;
+        padding-bottom: 0;
+        margin-right: 14px;
+        padding-right: 14px;
+    }
+
+    .nav .about {
+        padding-top: 0;
+    }
+
+    a {
+        margin-bottom: 0;
+    }
+}
