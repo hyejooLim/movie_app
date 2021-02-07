@@ -37,6 +37,12 @@ body,
   font-size: 22px;
 }
 
+@media screen and (max-width: 1024px) {
+  .container {
+    margin-left: 18px;
+  }
+}
+
 /* mobile */
 @media screen and (max-width: 480px) {
   .container {
