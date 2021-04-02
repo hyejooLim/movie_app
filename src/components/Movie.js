@@ -1,9 +1,9 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import PropTypes from "prop-types";
-import "./Movie.css";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import PropTypes from 'prop-types';
+import './Movie.css';
 
-function Moive({ id, year, title, summary, poster, genres }) {
+const Moive = ({ id, year, title, summary, poster, genres }) => {
   return (
     <Link
       to={{
@@ -15,20 +15,21 @@ function Moive({ id, year, title, summary, poster, genres }) {
           poster,
           genres,
         },
-      }}>
-      <div className="movie">
+      }}
+    >
+      <div className='movie'>
         <img src={poster} alt={title} title={title} />
-        <div className="movie__data">
-          <h3 className="movie__title">{title}</h3>
-          <h5 className="movie__year">{year}</h5>
-          <ul className="movie__genres">
+        <div className='movie__data'>
+          <h3 className='movie__title'>{title}</h3>
+          <h5 className='movie__year'>{year}</h5>
+          <ul className='movie__genres'>
             {genres.slice(0, 4).map((genre, index) => (
-              <li key={index} className="movie__genre">
+              <li key={index} className='movie__genre'>
                 {genre}
               </li>
             ))}
           </ul>
-          <p className="movie__summary">{summary.slice(0, 140)}...</p>
+          <p className='movie__summary'>{summary.slice(0, 140)}...</p>
         </div>
       </div>
     </Link>
@@ -41,7 +42,7 @@ Moive.propTypes = {
   title: PropTypes.string.isRequired,
   summary: PropTypes.string.isRequired,
   poster: PropTypes.string.isRequired,
-  genres: PropTypes.arrayOf(PropTypes.string).isRequired
+  genres: PropTypes.arrayOf(PropTypes.string).isRequired,
 };
 
-export default Moive; 
+export default Moive;
