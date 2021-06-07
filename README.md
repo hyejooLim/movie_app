@@ -1,9 +1,10 @@
 # 🎬 Moive App 2019
 
-React JS를 사용한 반응형 영화 앱 </br>
+</br>
 
-매주 새로운 영화들이 업데이트됩니다. (영상은 아직 제공 안 함)
-</br></br>
+> React JS를 사용한 반응형 영화 앱 </br></br>
+매주 새로운 영화들이 업데이트됩니다. (영상은 제공 안 함)
+</br>
 
 ## 1. 페이지
 * Home </br>
@@ -25,10 +26,10 @@ React JS를 사용한 반응형 영화 앱 </br>
 
 </br>
 
-## 3. Screen Shot
+## 3. 스크린 샷
 
 아래 링크를 통해 들어가주세요 😊
-</br>
+</br></br>
 
 ### ✨ Desktop 
 
@@ -54,6 +55,6 @@ React JS를 사용한 반응형 영화 앱 </br>
 <img src="https://user-images.githubusercontent.com/71072930/107152581-0428b480-69ac-11eb-8c54-956c9003da1f.jpg" width="700" height="470">
 </br>
 
-## 4. Go to Url
+## 4. 배포
 
 ### https://hyejooLim.github.io/movie_app/
