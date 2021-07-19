@@ -8,6 +8,7 @@ class Detail extends Component {
       history.push('/'); // 홈으로 리다이렉트
     }
   }
+  
   render() {
     const { location } = this.props;
     if (location.state) {
